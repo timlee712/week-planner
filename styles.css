@@ -5,3 +5,37 @@
 .hidden {
   display: none;
 }
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.header-title {
+  display: flex;
+  justify-content: center;
+}
+
+.days-row {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.button {
+  border: solid;
+  padding: 2rem 1.5rem;
+  background-color: white;
+  margin-right: 2rem;
+  font-size: 1rem;
+}
+
+#wednesday {
+  padding: 2rem 1rem;
+}
+
+#saturday {
+  padding: 2rem 1rem;
+}
+
+{
+}
