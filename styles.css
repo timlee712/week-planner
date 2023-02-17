@@ -29,6 +29,11 @@
   font-size: 1rem;
 }
 
+.button:hover {
+  background: #ddd;
+  cursor: pointer;
+}
+
 #wednesday {
   padding: 2rem 0.9rem;
 }
@@ -60,6 +65,10 @@
   cursor: pointer;
 }
 
+.add-entry-button:hover {
+  background-color: #95bcf2;
+}
+
 .modal {
   display: flex;
   justify-content: center;
@@ -71,6 +80,7 @@
   position: absolute;
   box-shadow: 2rem 25rem 25rem 50rem rgb(0 0 0 / 50%);
   margin-top: 7px;
+  background: white;
 }
 
 .column-half {
@@ -116,12 +126,29 @@ select {
 
 table {
   border: 1px solid black;
+  border-collapse: collapse;
+  margin-right: 25px;
 }
 
-tr th:nth-child(1) {
+th {
+  background: #ccc;
+  text-align: left;
+}
+
+tr:nth-child(odd) {
+  background-color: #eee;
+}
+
+td:first-child {
   border-right: 1px solid black;
 }
 
-tr td:nth-child(1) {
+th:first-child {
+  width: 200px;
+  border-right: 1px solid black;
+}
+
+th:nth-child(2) {
+  width: 750px;
   border-right: 1px solid black;
 }
