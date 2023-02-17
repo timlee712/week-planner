@@ -16,3 +16,13 @@ function submitEntry() {
 }
 
 submit.addEventListener('click', submitEntry);
+
+var button = document.querySelectorAll('.button');
+
+button.addEventListener('click', daySwap);
+
+function daySwap(e) {
+  var days = e.target.getAttribute('id');
+  console.log('days:', days);
+  console.log('e.target', e.target);
+}
