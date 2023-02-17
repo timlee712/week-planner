@@ -22,7 +22,7 @@
 }
 
 .button {
-  border: solid;
+  border: solid 3px black;
   padding: 2rem 1.5rem;
   background-color: white;
   margin-right: 2rem;
@@ -30,12 +30,51 @@
 }
 
 #wednesday {
-  padding: 2rem 1rem;
+  padding: 2rem 0.9rem;
+}
+
+#thursday {
+  padding: 2rem 0.9rem;
+}
+
+#friday {
+  padding: 2rem 1.5rem;
 }
 
 #saturday {
-  padding: 2rem 1rem;
+  padding: 2rem 1.5rem;
 }
 
-{
+.entry-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.add-entry-button {
+  border: solid;
+  padding: 0.5rem 3rem;
+  background-color: white;
+  font-size: 0.7rem;
+  box-shadow: 2px 2px 2px black;
+  border: solid 2px black;
+}
+
+.header-title {
+  display: flex;
+  justify-content: center;
+}
+
+.modal {
+  display: flex;
+  justify-content: center;
+}
+
+.modal-contents {
+  width: 100%;
+  border: solid;
+}
+
+.column-half {
+  width: 50%;
 }
