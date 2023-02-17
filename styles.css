@@ -68,6 +68,9 @@
 .modal-contents {
   width: 50%;
   border: solid;
+  position: absolute;
+  box-shadow: 2rem 25rem 25rem 50rem rgb(0 0 0 / 50%);
+  margin-top: 7px;
 }
 
 .column-half {
@@ -98,4 +101,15 @@ select {
   border: 2px solid black;
   box-shadow: 3px 3px black;
   cursor: pointer;
+}
+
+/* Schedule */
+.schedule-title {
+  display: flex;
+  justify-content: center;
+}
+
+.t-container {
+  display: flex;
+  justify-content: center;
 }
