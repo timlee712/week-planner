@@ -16,13 +16,17 @@ function submitEntry() {
 }
 
 submit.addEventListener('click', submitEntry);
-function daySwap(e) {
-  console.log('hello',);
-};
+
 var button = document.querySelectorAll('.button');
 var buttonArray = [...button];
-buttonArray.forEach(daySwap) {
-  item.addEventListener('click', daySwap)
 
+buttonArray.forEach(placeHolder);
+
+function placeHolder(event) {
+  event.addEventListener('click', daySwap);
 }
-console.log('buttonArray', buttonArray);
+
+function daySwap(event) {
+  var day = event.target.getAttribute('id');
+  console.log(day);
+}
