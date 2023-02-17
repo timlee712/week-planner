@@ -89,7 +89,7 @@ function daySwap(event) {
     tuesday.classList.add('hidden');
     wednesday.classList.add('hidden');
     thursday.classList.add('hidden');
-    friday.classList.remove('hidden');
+    friday.classList.add('hidden');
     saturday.classList.add('hidden');
     sunday.classList.remove('hidden');
   }
