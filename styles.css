@@ -71,10 +71,30 @@
 }
 
 .modal-contents {
-  width: 100%;
+  width: 50%;
   border: solid;
 }
 
 .column-half {
   width: 50%;
+}
+
+.selection {
+  justify-content: space-evenly;
+  margin-bottom: 1rem;
+}
+
+#description {
+  width: 83%;
+  margin-bottom: 1rem;
+  border: solid black 3px;
+}
+
+select {
+  border: solid black 3px;
+}
+
+.submit {
+  justify-content: flex-end;
+  margin: 0 4rem 1rem 0;
 }
