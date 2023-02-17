@@ -113,3 +113,15 @@ select {
   display: flex;
   justify-content: center;
 }
+
+table {
+  border: 1px solid black;
+}
+
+tr th:nth-child(1) {
+  border-right: 1px solid black;
+}
+
+tr td:nth-child(1) {
+  border-right: 1px solid black;
+}
