@@ -52,17 +52,12 @@
 }
 
 .add-entry-button {
-  border: solid;
+  border: solid 2px black;
   padding: 0.5rem 3rem;
   background-color: white;
   font-size: 0.7rem;
   box-shadow: 2px 2px 2px black;
-  border: solid 2px black;
-}
-
-.header-title {
-  display: flex;
-  justify-content: center;
+  cursor: pointer;
 }
 
 .modal {
@@ -97,4 +92,10 @@ select {
 .submit {
   justify-content: flex-end;
   margin: 0 4rem 1rem 0;
+}
+
+#submit {
+  border: 2px solid black;
+  box-shadow: 3px 3px black;
+  cursor: pointer;
 }
