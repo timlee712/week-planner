@@ -17,7 +17,26 @@ function submitEntry() {
 
 submit.addEventListener('click', submitEntry);
 
-var button = document.querySelectorAll('.button');
+var buttons = document.querySelector('.days-row');
+var schedules = document.querySelectorAll('.schedule');
+console.log(schedules);
+
+function viewSwap() {
+  if (event.target.matches('.button')) {
+    var data = event.target.getAttribute('name');
+    for (var i = 0; i < schedules.length; i++) {
+      if (schedules[i].getAttribute('id') === data) {
+        schedules[i].classList.remove('hidden');
+      } else {
+        schedules[i].classList.add('hidden');
+      }
+    }
+  }
+}
+
+buttons.addEventListener('click', viewSwap);
+
+/* var button = document.querySelectorAll('.button');
 var buttonArray = [...button];
 
 buttonArray.forEach(placeHolder);
@@ -94,3 +113,4 @@ function daySwap(event) {
     sunday.classList.remove('hidden');
   }
 }
+*/

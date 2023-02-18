@@ -34,22 +34,6 @@
   cursor: pointer;
 }
 
-#wednesday {
-  padding: 2rem 0.9rem;
-}
-
-#thursday {
-  padding: 2rem 0.9rem;
-}
-
-#friday {
-  padding: 2rem 1.5rem;
-}
-
-#saturday {
-  padding: 2rem 1.5rem;
-}
-
 .entry-button {
   display: flex;
   justify-content: center;
